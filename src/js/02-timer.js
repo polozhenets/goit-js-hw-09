@@ -60,8 +60,9 @@ const options = {
     }
   },
 };
-flatpickr(inputedDate, options);
 
+flatpickr(inputedDate, options);
+//timer countdown
 function startCountdown() {
   inputedDate.disabled = true;
   startButton.disabled = true;
