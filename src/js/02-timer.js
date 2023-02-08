@@ -3,7 +3,7 @@ import 'flatpickr/dist/flatpickr.min.css';
 import { Report,Notify } from 'notiflix/build/notiflix-report-aio';
 
 require('flatpickr/dist/themes/material_blue.css');
-
+let selectedDate = null;
 const inputedDate = document.querySelector('#datetime-picker');
 const spanValue = document.querySelectorAll('.value');
 const startButton = document.querySelector('button[data-start]');
